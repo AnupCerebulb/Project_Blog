@@ -56,7 +56,7 @@ urlpatterns = [
     # path('my_account/', views.my_account, name='my_account'),
 
     # path('board_topics/', views.TopicListView.as_view(), name='board_topics'),
-    path('topic_posts', views.topic_posts, name='topic_posts'),
+    path('topic_posts/', views.topic_posts, name='topic_posts'),
     
     # path('boards/(?P<pk>\d+)/topics/(?P<topic_pk>\d+)/posts/(?P<post_pk>\d+)/edit/',
     #     views.PostUpdateView.as_view(), name='edit_post'),
