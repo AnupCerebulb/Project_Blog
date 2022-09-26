@@ -32,7 +32,10 @@ def about_erica(request):
     return render(request, 'erica.html')
 
 def privacy_policy(request):
-    return render(request, 'policy.html')    
+    return render(request, 'policy.html')  
+
+def myaccounts(request):
+    return render(request, 'myaccounts.html')      
 
 def new_topic(request, pk):
     board = get_object_or_404(Board, pk=pk)

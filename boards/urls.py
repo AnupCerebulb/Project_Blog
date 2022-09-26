@@ -14,5 +14,6 @@ urlpatterns = [
     path('board_topics/<int:pk>/new/',views.new_topic,name='new_topic'),
     path('board_topics/<int:pk>/topics/<int:topic_pk>/reply/', views.reply_topic, name='reply_topic'),
     path('home', views.home, name='home'),
+    path('profile/', views.myaccounts, name='profile'),
 
 ]
