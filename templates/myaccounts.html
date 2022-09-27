@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Image</title>
+    <style type="text/css">
+        .text{
+            width:800px;
+            height:200px;
+            
+
+        }
+        .box{
+  position: absolute;
+    padding: 52px;
+    margin-top: -1099px;
+    margin-left: 389px;
+
+}
+.size{
+    width:1341px;
+    height:1270px;
+}
+
+    </style>
+</head>
+<body>
+    <img  class="size" src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+   
+    <form>
+        <fieldset class="box">
+        <legend>My Profile</legend>    
+        Name:<input type="text" name="name" value="Please Enter Your Name" placeholder="Please enter Your Name"
+        />
+        <br/>
+        <br/>
+        Address:<textarea name="address">
+            Enter Your Address
+        </textarea>
+        <br/>
+        <br/>
+        Gender:
+        <input type="radio" value="m" name="gender"/> Male
+        <input type="radio" value="f" name="gender"/> Female
+        <input type="radio" value="o" name="gender"/> other
+        <br/>
+        <br/>
+        Country:
+        <Select>
+            <optgroup label="ASIA">
+                <option>Please</option>
+            <option value="India">India</option>  
+            <option value="Sri Lanka">Sri Lanka</option>   
+            </optgroup>
+            <option> India</option>
+            <option> USA</option>
+            <option> UK</option>
+            <option>Testing</option>
+        </Select>
+        <br/>
+        <br/>
+        Hobbies:
+        <input type="checkbox" name="hobbies[]"> Dancing
+        <input type="checkbox" name="hobbies[]"> Singing
+        <input type="checkbox" name="hobbies[]"> Painting
+        <br/>
+        <br/>
+        Image:
+        <input type="file" name="image"/>
+        <br/>
+        <br/>
+        <input type="submit" value="Send"/>
+        <input type="reset" value="Reset"/>
+     </fieldset>
+    </form>
+    
+</body>
+</html>
